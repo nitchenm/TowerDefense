@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9091302184642642002
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1127447998576197993, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: freezingTurretPrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5845703302716843088, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: freezingTurretPrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029291149043890990, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7450860951813241138, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_Name
+      value: Freezing Turret
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720996147527471224, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.508335
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20000267
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.439364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917237509157688949, guid: f0373c288be36974e80052003b00abac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5876286363212866205, guid: f0373c288be36974e80052003b00abac, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: f0373c288be36974e80052003b00abac, type: 3}
+--- !u!1 &1516787551398219818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7720996147527471224, guid: f0373c288be36974e80052003b00abac, type: 3}
+  m_PrefabInstance: {fileID: 9091302184642642002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1822846948864145760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7450860951813241138, guid: f0373c288be36974e80052003b00abac, type: 3}
+  m_PrefabInstance: {fileID: 9091302184642642002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5940136007535722318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822846948864145760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53972b15944ba3d41a5082d0ae63386c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuCanvas: {fileID: 3280471489164442492}
+  freezingAmount: 20
+  freezingRadius: 0
+  freezingDuration: 1
+  enemyTag: Enemy
+  partToRotate: {fileID: 7348252676966071096}
+  turnSpeed: 10
+  bulletPrefab: {fileID: 323735659341808060, guid: 0692b25db4ae019479ad3b626f5e1eb6, type: 3}
+  firePoint: {fileID: 7348252676966071096}
+--- !u!114 &2469384378975743096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822846948864145760}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8626060104e75549915a0865ed346a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuCanvas: {fileID: 3280471489164442492}
+  upgradeTurretMenuCanvas: {fileID: 1516787551398219818}
+  enemyTag: Enemy
+  partToRotate: {fileID: 7348252676966071096}
+  turnSpeed: 10
+  bulletPrefab: {fileID: 323735659341808060, guid: 0692b25db4ae019479ad3b626f5e1eb6, type: 3}
+  firePoint: {fileID: 7348252676966071096}
+--- !u!1 &3280471489164442492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6029291149043890990, guid: f0373c288be36974e80052003b00abac, type: 3}
+  m_PrefabInstance: {fileID: 9091302184642642002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7348252676966071096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2004374288907090794, guid: f0373c288be36974e80052003b00abac, type: 3}
+  m_PrefabInstance: {fileID: 9091302184642642002}
+  m_PrefabAsset: {fileID: 0}
